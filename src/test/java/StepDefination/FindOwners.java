@@ -19,7 +19,7 @@ public class FindOwners {
 	
 	@Given("^Open Petclinic application$")
 	public void open_Petclinic_application() throws MalformedURLException  {
-		Node = "http://192.168.1.197:5555/wd/hub";
+		Node = "http://127.0.0.1:5555/wd/hub";
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 		cap.setBrowserName("chrome");
 		cap.setPlatform(Platform.WIN10);
